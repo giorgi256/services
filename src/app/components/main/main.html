@@ -1,0 +1,11 @@
+<section>
+    @for (item of allProducts; track $index) {
+        <div>
+            <img [src]="item.featuredImage" alt="">
+            <div>
+                <h2>{{item.name}}</h2>
+            </div>
+        </div>
+    }
+</section>
+<p>hello</p>
