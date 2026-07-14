@@ -8,4 +8,12 @@
         </div>
     }
 </section>
+<div class="rooms">
+    @for (item of allProducts; track $index) {
+        <ul>
+            <li (click)="allRooms(item.id)">{{item.name}}</li>
+        </ul>
+    }
+</div>
+ 
 <p>hello</p>
